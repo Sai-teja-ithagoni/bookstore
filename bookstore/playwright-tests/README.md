@@ -164,3 +164,7 @@ Maintained by [Sai Teja Ithagoni](https://github.com/Sai-teja-ithagoni)
 ---
 
 Happy Testing! 🎯
+
+
+## How to force stop all docker images
+sudo docker stop $(sudo docker ps -q)
