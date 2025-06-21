@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jun 21 16:51:52 UTC 2025","Sat Jun 21 16:51:53 UTC 2025","817","","book_crud.test.ts","Book API - CRUD operations","","","Create book",""
+"passed","Sat Jun 21 16:51:54 UTC 2025","Sat Jun 21 16:51:54 UTC 2025","409","","book_crud.test.ts","Book API - CRUD operations","","","Update book",""
+"passed","Sat Jun 21 16:51:54 UTC 2025","Sat Jun 21 16:51:54 UTC 2025","200","","auth_flow.test.ts","","","","should fail to signup with duplicate email",""
+"passed","Sat Jun 21 16:51:53 UTC 2025","Sat Jun 21 16:51:54 UTC 2025","779","","auth_flow.test.ts","","","","should fail login with incorrect password",""
+"passed","Sat Jun 21 16:51:54 UTC 2025","Sat Jun 21 16:51:55 UTC 2025","399","","book_crud.test.ts","Book API - CRUD operations","","","Delete book",""
+"passed","Sat Jun 21 16:51:53 UTC 2025","Sat Jun 21 16:51:54 UTC 2025","986","","book_crud.test.ts","Book API - CRUD operations","","","Read book by ID",""
+"passed","Sat Jun 21 16:51:52 UTC 2025","Sat Jun 21 16:51:53 UTC 2025","770","","auth_flow.test.ts","","","","signup and login with valid credentials",""
