@@ -85,6 +85,7 @@ Or create a basic `tsconfig.json` manually.
 ---
 
 ## 🧪 Running Tests
+navigate to playwright-tests folder so that you can access to playwright services
 
 ### Basic Run
 
@@ -110,7 +111,10 @@ npx playwright show-report
 
 ### View Allure Report (Docker)
 
+
 ```bash
+sudo usermod -aG docker $USER
+newgrp docker
 docker run -p 5050:5050 \
   -v $(pwd)/allure-results:/app/allure-results \
   -v $(pwd)/allure-report:/app/allure-report \
@@ -118,6 +122,7 @@ docker run -p 5050:5050 \
 ```
 
 Then open in browser: [http://localhost:5050](http://localhost:5050)
+http://localhost:5050/allure-docker-service/projects/default/reports/latest/index.html
 
 ---
 
